@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login-principal {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  height: 95vh;
+}
+.content-login {
+  background-color: rgb(249, 245, 245);
+  width: 25%;
+  padding: 20px;
+}
+.content-login > * {
+  margin: 20px;
+}
+.content-login img {
+  width: 15vh;
+  margin: 0;
+}
+.inputSubmit {
+  padding: 5px;
+  height: 30px;
+  width: 80%;
+  display: block;
+  margin: 10px 20px;
+}
+
+.css-button-3d--red {
+  width: 80%;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #ef233c;
+  box-shadow: 0 5px #d90429;
+}
+.css-button-3d--red:hover {
+  box-shadow: 0 3px #d90429;
+  top: 1px;
+}
+.css-button-3d--red:active {
+  box-shadow: 0 0 #d90429;
+  top: 5px;
+}
+.div-registrar {
+  display: flex;
+  justify-content: space-around;
+}
